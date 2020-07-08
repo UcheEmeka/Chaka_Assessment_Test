@@ -5,3 +5,4 @@ Feature: Login
     And clicks on Login
     When User enters Email as "uche.c.emeka@gmail.com" and Password as "zebra"
     And Clicks on Login button
+    Then close browser

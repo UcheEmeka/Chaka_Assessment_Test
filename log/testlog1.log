@@ -94,3 +94,31 @@
 2020-07-08 14:44:24,734 [main] INFO nopCommerce - ***Opening URL***
 2020-07-08 14:46:14,073 [main] INFO nopCommerce - ***Launching browser***
 2020-07-08 14:46:20,137 [main] INFO nopCommerce - ***Opening URL***
+2020-07-08 15:07:11,757 [main] INFO nopCommerce - ***Launching browser***
+2020-07-08 15:07:22,303 [main] INFO nopCommerce - ***Opening URL***
+2020-07-08 15:07:22,776 [main] INFO nopCommerce - ***Opening Sign up page***
+2020-07-08 15:07:27,245 [main] INFO nopCommerce - ***Entered Sign up details***
+2020-07-08 21:43:05,829 [main] INFO nopCommerce - ***Launching browser***
+2020-07-08 21:43:11,531 [main] INFO nopCommerce - ***Opening URL***
+2020-07-08 21:43:11,644 [main] INFO nopCommerce - ***Login page***
+2020-07-08 21:43:14,995 [main] INFO nopCommerce - ***Enter Username and Password***
+2020-07-08 21:43:15,057 [main] INFO nopCommerce - ***Attempting to Login***
+2020-07-08 21:43:18,060 [main] INFO nopCommerce - ***Closing browser***
+2020-07-08 21:49:27,007 [main] INFO nopCommerce - ***Launching browser***
+2020-07-08 21:49:31,410 [main] INFO nopCommerce - ***Opening URL***
+2020-07-08 21:49:31,515 [main] INFO nopCommerce - ***Opening Sign up page***
+2020-07-08 21:49:35,004 [main] INFO nopCommerce - ***Entered Sign up details***
+2020-07-08 21:49:35,054 [main] INFO nopCommerce - Attempting to Sign In
+2020-07-08 21:49:40,054 [main] INFO nopCommerce - ***Closing browser***
+2020-07-08 21:53:18,381 [main] INFO nopCommerce - ***Launching browser***
+2020-07-08 21:53:24,141 [main] INFO nopCommerce - ***Opening URL***
+2020-07-08 21:53:24,264 [main] INFO nopCommerce - ***Login page***
+2020-07-08 21:53:27,609 [main] INFO nopCommerce - ***Enter Username and Password***
+2020-07-08 21:53:27,659 [main] INFO nopCommerce - ***Attempting to Login***
+2020-07-08 21:53:32,661 [main] INFO nopCommerce - ***Closing browser***
+2020-07-08 21:55:42,017 [main] INFO Chaka_Assessment - ***Launching browser***
+2020-07-08 21:55:49,018 [main] INFO Chaka_Assessment - ***Opening URL***
+2020-07-08 21:55:49,124 [main] INFO Chaka_Assessment - ***Login page***
+2020-07-08 21:55:52,474 [main] INFO Chaka_Assessment - ***Enter Username and Password***
+2020-07-08 21:55:52,537 [main] INFO Chaka_Assessment - ***Attempting to Login***
+2020-07-08 21:55:57,538 [main] INFO Chaka_Assessment - ***Closing browser***

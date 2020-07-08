@@ -7,8 +7,9 @@ Feature: Login
     And clicks on Sign Up
     When User enters email as "<email>" and password as "<password>" and confirmed password "<password>"
     And clicks on Sign up button
+    Then close browser
 
 
     Examples:
     |email|password|password|
-    |uche.c.emeka@gmail.com|Z1ebra|Z1ebra|
+    |uche.c.emeka@gmail.com|Z1ebra|Ze1bra|

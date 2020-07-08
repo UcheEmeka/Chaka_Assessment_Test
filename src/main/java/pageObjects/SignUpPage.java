@@ -22,17 +22,25 @@ public class SignUpPage {
         actions = new Actions(driver);
     }
 
+    //Email address field
     @FindBy(css="form>div:nth-child(3)>label>input")
     @CacheLookup
     WebElement emailAddressField;
 
+    //Password field
     @FindBy(css="form>div:nth-child(4)>label>input")
     @CacheLookup
     WebElement createPasswordField;
 
+    //Confirm password field
     @FindBy(css="form>div:nth-child(5)>label>input")
     @CacheLookup
     WebElement confirmPasswordField;
+
+    //Sign up button
+    @FindBy(xpath = "//button[@type='submit']")
+    @CacheLookup
+    WebElement signUpBtn;
 
     //Enter sign up email address
     public void enterEmailAddress(String email) throws InterruptedException
@@ -51,6 +59,11 @@ public class SignUpPage {
     public void confirmPassword(String password)
     {
         actions.sendKeys(confirmPasswordField, password).perform();
+    }
+
+    public void clickSignUpBtn()
+    {
+        signUpBtn.click();
     }
 
 

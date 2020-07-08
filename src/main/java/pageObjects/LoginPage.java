@@ -22,23 +22,37 @@ public class LoginPage {
         actions = new Actions(this.driver);
     }
 
-    //Element locators
+    //Email field on login page
    @FindBy(css = "div:nth-child(3)>label.form__label>input.form__input")
     @CacheLookup
     WebElement txtEmail;
 
+    //Password field on login page
     @FindBy(xpath = "//input[@name='password']")
     @CacheLookup
     WebElement txtPwd;
 
+    //Login button
+    @FindBy(xpath = "//button[@type='submit']")
+    @CacheLookup
+    WebElement loginBtn;
+
+    //Enter user Email Address
     public void typeEmail(String emailAdd) throws InterruptedException
     {
         Thread.sleep(3000);
         actions.sendKeys(txtEmail,emailAdd).perform();
     }
 
+    //Enter User password
     public void typePwd(String pwd)
     {
         actions.sendKeys(txtPwd,pwd).perform();
+    }
+
+    //Click login button
+    public void clickLoginButton()
+    {
+        loginBtn.click();
     }
 }

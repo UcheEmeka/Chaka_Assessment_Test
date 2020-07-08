@@ -3,6 +3,7 @@ package stepDefinitions;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -25,7 +26,7 @@ public class Steps extends BaseClass{
         FileInputStream configPropFile = new FileInputStream("config.properties");
         configProp.load(configPropFile);
 
-        logger = Logger.getLogger("nopCommerce");
+        logger = Logger.getLogger("Chaka_Assessment");
         PropertyConfigurator.configure("log4j.properties");
 
         String br = configProp.getProperty("browser");
@@ -67,9 +68,9 @@ public class Steps extends BaseClass{
 
     @When("clicks on Sign up button")
     public void clicks_on_sign_up_button() {
-
+        signUpPage.clickSignUpBtn();
+        logger.info("Attempting to Sign Up");
     }
-
 
     //Login Steps
     @And("clicks on Login")
@@ -89,9 +90,16 @@ public class Steps extends BaseClass{
 
     @And("Clicks on Login button")
     public void clicks_on_login_button() {
-
+        loginPage.clickLoginButton();
+        logger.info("***Attempting to Login***");
     }
 
-
-
+    //close browser
+    @Then("close browser")
+    public void close_browser() throws InterruptedException
+    {
+        Thread.sleep(5000);
+        logger.info("***Closing browser***");
+        driver.quit();
+    }
 }

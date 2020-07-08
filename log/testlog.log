@@ -94,3 +94,31 @@
 2020-07-08 14:44:24,734 - nopCommerce -INFO - ***Opening URL***
 2020-07-08 14:46:14,073 - nopCommerce -INFO - ***Launching browser***
 2020-07-08 14:46:20,137 - nopCommerce -INFO - ***Opening URL***
+2020-07-08 15:07:11,757 - nopCommerce -INFO - ***Launching browser***
+2020-07-08 15:07:22,303 - nopCommerce -INFO - ***Opening URL***
+2020-07-08 15:07:22,776 - nopCommerce -INFO - ***Opening Sign up page***
+2020-07-08 15:07:27,245 - nopCommerce -INFO - ***Entered Sign up details***
+2020-07-08 21:43:05,829 - nopCommerce -INFO - ***Launching browser***
+2020-07-08 21:43:11,531 - nopCommerce -INFO - ***Opening URL***
+2020-07-08 21:43:11,644 - nopCommerce -INFO - ***Login page***
+2020-07-08 21:43:14,995 - nopCommerce -INFO - ***Enter Username and Password***
+2020-07-08 21:43:15,057 - nopCommerce -INFO - ***Attempting to Login***
+2020-07-08 21:43:18,060 - nopCommerce -INFO - ***Closing browser***
+2020-07-08 21:49:27,007 - nopCommerce -INFO - ***Launching browser***
+2020-07-08 21:49:31,410 - nopCommerce -INFO - ***Opening URL***
+2020-07-08 21:49:31,515 - nopCommerce -INFO - ***Opening Sign up page***
+2020-07-08 21:49:35,004 - nopCommerce -INFO - ***Entered Sign up details***
+2020-07-08 21:49:35,054 - nopCommerce -INFO - Attempting to Sign In
+2020-07-08 21:49:40,054 - nopCommerce -INFO - ***Closing browser***
+2020-07-08 21:53:18,381 - nopCommerce -INFO - ***Launching browser***
+2020-07-08 21:53:24,141 - nopCommerce -INFO - ***Opening URL***
+2020-07-08 21:53:24,264 - nopCommerce -INFO - ***Login page***
+2020-07-08 21:53:27,609 - nopCommerce -INFO - ***Enter Username and Password***
+2020-07-08 21:53:27,659 - nopCommerce -INFO - ***Attempting to Login***
+2020-07-08 21:53:32,661 - nopCommerce -INFO - ***Closing browser***
+2020-07-08 21:55:42,017 - Chaka_Assessment -INFO - ***Launching browser***
+2020-07-08 21:55:49,018 - Chaka_Assessment -INFO - ***Opening URL***
+2020-07-08 21:55:49,124 - Chaka_Assessment -INFO - ***Login page***
+2020-07-08 21:55:52,474 - Chaka_Assessment -INFO - ***Enter Username and Password***
+2020-07-08 21:55:52,537 - Chaka_Assessment -INFO - ***Attempting to Login***
+2020-07-08 21:55:57,538 - Chaka_Assessment -INFO - ***Closing browser***
